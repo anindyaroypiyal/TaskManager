@@ -1,0 +1,46 @@
+
+.menu {
+    background: linear-gradient(to right, #ff8c00, #ff4500);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem auto;
+    margin-left: 10rem;
+  
+    p {
+            font-size: 13px;
+            width: 200px; /* Set your desired width */
+            overflow: auto; /* Hide overflowing text */
+            padding: 10px; /* Optional: Add padding for spacing */
+            white-space: auto; /* Prevent text from wrapping */
+        }
+
+    li{
+        margin-right: 1.5%;
+    }    
+
+  
+    button {
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+      color: #fff;
+      transition: color 0.3s;
+      margin-left: 13%;
+  
+      &:hover {
+        color: #ff8c00;
+      }
+    }
+  }
+  
+  .completed {
+    background: linear-gradient(to right, #00a000, #00c0a0); /* Green gradient for completed items */
+  }
+  
+  /* Add your other styles for ListCard as needed */
+  
